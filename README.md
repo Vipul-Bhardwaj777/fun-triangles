@@ -1,1 +1,1 @@
-# fun-triangles
+# Fun-Triangles
