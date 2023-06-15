@@ -1,0 +1,4 @@
+[[redirects]]
+from = "/*"
+to = "/isTriangle.html"
+status = 200
