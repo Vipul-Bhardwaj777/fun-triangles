@@ -5,25 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="styles.css" rel="stylesheet" />
 </head>
 
 <nav class="nav">
     <div class="fun">FUNTRIANGLES</div>
-    <ul class="list-inline">
+    <ul class="list">
         <li class="list-inline">
-            <a class="link" href="isTriangle.html">Is Triangle?</a>
+            <a class="link link-active" href="/isTriangle.html">Is Triangle?</a>
         </li>
 
         <li class="list-inline">
-            <a class="link" href="quiz.html">Quiz</a>
+            <a class="link" href="/quiz.html">Quiz</a>
         </li>
 
         <li class="list-inline">
-            <a class="link" href="hypotenuse.html">Hypotenuse</a>
+            <a class="link" href="/hypotenuse.html">Hypotenuse</a>
         </li>
 
         <li class="list-inline">
-            <a class="link" href="area.html">Area</a>
+            <a class="link" href="/area.html">Area</a>
         </li>
     </ul>
 
@@ -31,20 +32,25 @@
 </nav>
 
 <body>
-    <h1>Is Triangle? 📐</h1>
-    <label for="Angle1">Angle1</label>
+    <div class="container">
+        <h1>Is Triangle? 📐</h1>
+    <label for="Angle1">Angle1(in degrees):</label>
     <input type="number" class="inputs" />
 
-    <label for="Angle2">Angle2</label>
+    <label for="Angle2">Angle2(in degrees):</label>
     <input type="number" class="inputs" />
 
-    <label for="Angle3">Angle3</label>
+    <label for="Angle3">Angle3(in degrees):</label>
     <input type="number" class="inputs" />
 
     <button id="check-btn">Is Triangle?</button>
     <div id="output-div"></div>
+    </div >
 
-    <script src="isTriangle.js" type="text/javascript" />
+
+    
+    <script src="isTriangle.js" type="text/javascript"></script>
+
     </body>
 
 </html>

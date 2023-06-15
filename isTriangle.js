@@ -8,8 +8,10 @@ btn.addEventListener('click', () => {
     const angle3 = Number(angleInputs[2].value);
     const sum = calculateSum(angle1, angle2, angle3);
     if (sum === 180) {
+        output.style.display = "block";
         output.innerText = 'Yay! This makes a Triangle 📐';
     } else {
+        output.style.display = "block";
         output.innerText = 'Oh! This does not makes a Triangle 📐';
     }
 

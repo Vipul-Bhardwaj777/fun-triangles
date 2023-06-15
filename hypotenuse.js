@@ -6,6 +6,7 @@ checkBtn.addEventListener('click',() => {
     const base = Number(inputs[0].value);
     const perpendicular = Number(inputs[1].value);
     const hypotenuse = calculateHypotenuse(base,perpendicular);
+    output.style.display = "block";
     output.innerText = "Hypotenuse = " + hypotenuse + " cm";
 
 });
