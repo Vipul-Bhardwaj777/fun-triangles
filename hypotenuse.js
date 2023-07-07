@@ -7,7 +7,7 @@ checkBtn.addEventListener('click',() => {
     const perpendicular = Number(inputs[1].value);
     const hypotenuse = calculateHypotenuse(base,perpendicular);
     output.style.display = "block";
-    output.innerText = "Hypotenuse = " + hypotenuse + " cm";
+    output.innerText = "Hypotenuse = " + hypotenuse.toFixed(2)  + " cm";
 
 });
 
